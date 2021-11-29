@@ -1,0 +1,14 @@
+%h1.title Lista de contratos
+%hr
+%table.table.is-bordered.is-fullwidth
+  %thead
+    %tr
+      %th NOMBRE
+      %th CEDULA
+      %th DIVISION DE PESO
+  %tbody
+    - @contracts.each do |c|
+      %tr
+        %td= c.contracted_name
+        %td= c.contracted_id
+        %td= c.contracted_division  

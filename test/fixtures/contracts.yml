@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  contracted_name: MyString
+  contracted_id: MyString
+  contracted_address: MyString
+  contracted_division: MyString
+  contracted_category: MyString
+  contrac_validdity: 2021-11-26
+  contracted_signature: MyString
+
+two:
+  contracted_name: MyString
+  contracted_id: MyString
+  contracted_address: MyString
+  contracted_division: MyString
+  contracted_category: MyString
+  contrac_validdity: 2021-11-26
+  contracted_signature: MyString

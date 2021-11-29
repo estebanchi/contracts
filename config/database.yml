@@ -1,0 +1,19 @@
+default: &default
+  adapter: postgresql
+  pool: 5
+  timeout: 5000
+
+development:
+  <<: *default
+  database: contracts_form_development
+
+test: &test
+  <<: *default
+  database: contracts_form_test<%= ENV['TEST_ENV_NUMBER'] %>
+
+production:
+  <<: *default
+  database: contracts_form_production
+
+cucumber:
+  <<: *test
